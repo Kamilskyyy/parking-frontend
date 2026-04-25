@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Kolory wyciągnięte prosto z Twojego PDF */
+  --color-parking-blue: #0066cc;    /* Ten żywy niebieski z logo i przycisków */
+  --color-parking-black: #000000;   /* Czysta czerń headera */
+  --color-parking-bg: #4d4d4d;      /* Szare tło strony */
+  --color-parking-panel: #333333;   /* Ciemniejszy szary dla paneli/kart */
+}
+
+html, body {
+  @apply bg-parking-bg text-white m-0 p-0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
